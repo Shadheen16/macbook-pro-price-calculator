@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ASSIGNMENT 5</title>
+</head>
+<body>
+    <main class=container>
+        <div class='content'>
+            <div class="split1">
+                <div class="img-container">
+                    <img src="img/mac.png" width="350" alt="">
+                </div>
+            </div>
+            <div class="split">
+                <h1>
+                    Customize your Blue 24-inch iMac with Apple M1 chip
+                </h1>
+                <p>Apple M1 chip with 8-core CPU and 8-core GPU.24-inch (diagonal) LED-backlit Retina display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors</p>
+
+                <div class="accessories">
+                   <div id="memory" class="accessories-item memory">
+                    <p>
+                        Memory
+                    </p>
+                     <button id="8gbMemory" class="box" data-cost="0">8GB unified memory</button><button id="32gbMemory" class="box" data-cost="180">16GB unified memory</button>
+                   </div>
+                   <div id="storage" class="accessories-item storage">
+                    <p>
+                        storage
+                    </p>
+                    <button class="box" data-cost="0">256GB SSD storege</button><button class="box" data-cost="100">512GB SSD storage</button><button class="box" data-cost="180">1TB SSD storage</button>
+                   </div>
+                   <div id="delivery" class="accessories-item delivery-option">
+                    <p>
+                      Choose Your Delevery option
+                    </p>
+                    <button class="box" data-cost="0">Friday, Aug FREE Prime Delevery</button><button class="box" data-cost="20">Friday, Aug 21 Delevery charge $20</button>
+                   </div>
+                </div>
+                <div class='calculation'>
+                    <div class="calculation-item">
+                        <div>
+                            <p>Best Price</p>
+                        </div>
+                        <div class="cost"><p>$<span id="bestPrice">1299</span></p></div>
+                    </div>
+                    <div class="calculation-item">
+                        <div>
+                           <p>Extra Memory Cost</p> 
+                        </div>
+                        <div class="cost"><p>$<span id="memory-cost">0</span></p></div>
+                    </div>
+                    <div class="calculation-item">
+                        <div>
+                           <p>Extra storage cost</p> 
+                        </div>
+                        <div class="cost"><p>$<span id="storage-cost">0</span></p></div>
+                    </div>
+                    <div class="calculation-item">
+                       <div><p>Delevery Charge</p></div>
+                        <div class="cost"><p>$<span id="delivery-cost">0</span></p></div>
+                    </div>
+                    <div class="calculation-item">
+                        <div><p>Total Price</p></div>
+                        <div class="cost"><p>$<span id="total-price">1299</span></p></div>
+                    </div>
+                </div>
+                <div class="promoCode">
+                    <label for="promo-code">Add promo code <span class="promoInstruction">(enter "stevekaku" to get 20% discount)</span> </label>
+                    <input id="promo-code" type="text">
+                    <button id="promoButton" onclick="applyPromoCode()">Apply</button>
+
+                    <div id="error"><p>Please enter a valid code</p></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="grand-total"><h2>Total: $<span id="final-price">1299</span></h2></div>
+    </main>
+
+
+<script src="app.js"></script>
+</body>
+</html>
