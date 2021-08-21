@@ -1,34 +1,3 @@
-// document.getElementById('8gbMemory').addEventListener('click',()=>{
-//     let count = 1;
-//     count+=1;
-//     if (count>1){
-//      document.getElementById('8gbMemory').setAttribute('disabled', true);
-//     }
-
-//     const ExtraCost = document.getElementById('memoryCost').innerText="1";
-
-//     /* update price */
-// // function updatePrice (elementId, extraCost){}
-//     const totalPriceText = document.getElementById('totalPrice').innerText;
-//     const PreviousTotalPrice = parseInt(totalPriceText);
-//     const newTotalPrice = parseInt(ExtraCost)+PreviousTotalPrice;
-//     document.getElementById('totalPrice').innerText=newTotalPrice;
-
-//     /* updateGrand Total price */
-//     document.getElementById('grandTotal').innerText=newTotalPrice;
-
-
-// })
-
-
-// function addExtraCost (elementId, ExtraCost){
-//     document.getElementById('memoryCost').innerText=ExtraCost;
-//     const totalPriceText = document.getElementById(totalPrice).innerText;
-//     const totalPrice = parseInt(totalPriceText);
-//     newTotalPrice = ExtraCost+totalPrice;
-// }
-
-// document.getElementById('8gbMemory').addEventListener('click', addExtraCost('memoryCost', '1'))
 
 /* event handlelers for adding extraCost */
 
